@@ -1,0 +1,5 @@
+Bundle-Name: Portlet1
+Bundle-SymbolicName: Portlet1
+Bundle-Version: 1.0.0
+Export-Package: Portlet1.constants
+Include-Resource: @jsoup-1.12.1.jar

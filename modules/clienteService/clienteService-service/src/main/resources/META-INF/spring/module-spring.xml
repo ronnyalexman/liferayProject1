@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="clienteService.service.impl.ClientesLocalServiceImpl" id="clienteService.service.ClientesLocalService" />
+	<bean class="clienteService.service.impl.ClientesServiceImpl" id="clienteService.service.ClientesService" />
+	<bean class="clienteService.service.persistence.impl.ClientesPersistenceImpl" id="clienteService.service.persistence.ClientesPersistence" parent="basePersistence" />
+	<bean class="clienteService.service.persistence.impl.ClientesFinderImpl" id="clienteService.service.persistence.ClientesFinder" parent="basePersistence" />
+</beans>

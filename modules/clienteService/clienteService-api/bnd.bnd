@@ -1,0 +1,10 @@
+Bundle-Name: clienteService-api
+Bundle-SymbolicName: clienteService.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	clienteService.exception,\
+	clienteService.model,\
+	clienteService.service,\
+	clienteService.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../clienteService-service/service.xml

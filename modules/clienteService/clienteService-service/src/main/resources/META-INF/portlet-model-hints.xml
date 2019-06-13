@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<hint-collection name="maxLength">
+		<hint name="max-length">500</hint>
+	</hint-collection>
+	<model name="clienteService.model.Clientes">
+		<field name="uuid" type="String" />
+		<field name="clienteId" type="long" />
+		<field name="nombre" type="String" />
+		<field name="apellidos" type="String" />
+		<field name="nif" type="String" />
+		<field name="email" type="String" />
+		<field name="descripcion" type="String">
+			<hint-collection name="maxLength" />
+		</field>
+		<field name="imagen" type="String">
+			<hint-collection name="maxLength" />
+		</field>
+		<field name="imagenId" type="long" />
+	</model>
+</model-hints>

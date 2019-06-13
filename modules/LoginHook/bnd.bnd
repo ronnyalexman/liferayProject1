@@ -1,0 +1,4 @@
+Fragment-Host: com.liferay.login.web;bundle-version="3.0.26"
+Bundle-Name: LoginHook
+Bundle-SymbolicName: LoginHook
+Bundle-Version: 1.0.0

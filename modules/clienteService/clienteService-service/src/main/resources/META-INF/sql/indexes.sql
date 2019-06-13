@@ -1,0 +1,1 @@
+create index IX_8DB18481 on VASS_Clientes (uuid_[$COLUMN_LENGTH:75$]);
